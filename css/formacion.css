@@ -1,0 +1,30 @@
+.academic{
+    background: var(--cor-navegacion);
+}
+
+
+.academic__courses__box {
+    width: 100%;
+ 
+}
+
+/*PC*/
+@media screen and (min-width: 768px) and (max-width: 2000px) {
+    .academic{
+        padding: 2rem 7rem;
+    }
+}
+
+/*Tablet*/
+@media screen  and (max-width: 767px) {
+    .academic{
+        padding: 2rem 1rem;
+    }
+}
+
+/*Mobile*/
+@media screen and (max-width: 480px) {
+    .academic{
+        padding: 2rem .5rem;
+    }
+}

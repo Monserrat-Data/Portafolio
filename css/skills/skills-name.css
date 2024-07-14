@@ -1,0 +1,24 @@
+.skills__name{
+    color: var(--cor-menu-link);
+    padding: .75rem .1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-family: inherit;
+}
+
+
+
+/*Tablet*/
+@media screen  and (max-width: 767px) {
+    .skills__name{
+        font-size: .9rem;
+    }
+}   
+
+/*Mobile*/
+@media screen and (max-width: 480px) {
+    .skills__name{
+        font-size: 1.1rem;
+    }
+}

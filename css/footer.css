@@ -1,0 +1,67 @@
+.footer{
+    background: var(--cor-de-fondo);
+}
+
+.footer__rodape{
+    color: blanchedalmond;
+}
+
+.footer__imagen{
+    height: 28px;
+    padding-right: 1rem;
+    width: 28px;
+}
+
+
+/*PC*/
+@media screen and (min-width: 768px) and (max-width: 2000px) {
+    .footer{
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer__redes{
+        display: flex;
+        padding-right: 1rem;
+    }
+    .footer__rodape{
+        font-size: .9rem;
+    }
+    .footer__imagen{
+        height: 28px;
+        padding-right: 1rem;
+        width: 28px;
+    }
+}
+
+
+
+/*Tablet*/
+@media screen  and (max-width: 767px) {
+    .footer{
+        padding: 1rem 1rem;
+        align-items: center;
+    }
+    .footer__redes{
+        display: flex;
+        justify-content: center;
+        padding-right: 1rem;
+    }
+    .footer__rodape{
+        font-size: .8rem;
+        display: flex;
+        justify-content: center;
+    }
+    .footer__imagen{
+        height: 24px;
+        padding-right: .7rem;
+        width: 24px;
+    }
+}     
+
+/*Mobile falta revisar esto*/
+@media screen and (min-width: 0px) and (max-width: 480px) {
+
+}
+

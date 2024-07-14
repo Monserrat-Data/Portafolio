@@ -1,0 +1,18 @@
+.skills__img{
+  
+    border-radius: 15px;
+    display: grid;
+    justify-content: center;
+    padding: 1.25rem,
+}
+
+.skills__img:hover{
+    transform: scale(1.1);
+    
+}
+
+.img__html, .img__js, .img__css, .img__python, .img__mysql, .img__oracle {
+    height: 90px;
+    width: 100%;
+}
+
